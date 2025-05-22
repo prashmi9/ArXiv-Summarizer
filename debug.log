@@ -1,0 +1,176 @@
+INFO 2025-05-22 15:13:21,451 services Initializing ArXiv dataset...
+INFO 2025-05-22 15:13:28,352 services ArXiv dataset initialized successfully!
+INFO 2025-05-22 15:13:28,353 services Skipping Llama model initialization - using mock text analysis service instead.
+INFO 2025-05-22 15:13:28,353 services Services initialization completed!
+INFO 2025-05-22 15:13:30,487 services Initializing ArXiv dataset...
+INFO 2025-05-22 15:13:35,567 services ArXiv dataset initialized successfully!
+INFO 2025-05-22 15:13:35,567 services Skipping Llama model initialization - using mock text analysis service instead.
+INFO 2025-05-22 15:13:35,568 services Services initialization completed!
+INFO 2025-05-22 15:13:35,593 autoreload Watching for file changes with StatReloader
+WARNING 2025-05-22 15:13:43,519 log Not Found: /
+WARNING 2025-05-22 15:13:43,520 basehttp "GET / HTTP/1.1" 404 179
+WARNING 2025-05-22 15:13:43,945 log Not Found: /favicon.ico
+WARNING 2025-05-22 15:13:43,947 basehttp "GET /favicon.ico HTTP/1.1" 404 179
+WARNING 2025-05-22 15:13:56,703 log Not Found: /api
+WARNING 2025-05-22 15:13:56,704 basehttp "GET /api HTTP/1.1" 404 179
+WARNING 2025-05-22 15:14:11,736 log Not Found: /api
+WARNING 2025-05-22 15:14:11,737 basehttp "GET /api HTTP/1.1" 404 179
+WARNING 2025-05-22 15:14:26,348 log Not Found: /api
+WARNING 2025-05-22 15:14:26,349 basehttp "GET /api HTTP/1.1" 404 179
+WARNING 2025-05-22 15:15:07,564 log Not Found: /api/health
+WARNING 2025-05-22 15:15:07,565 basehttp "GET /api/health HTTP/1.1" 404 179
+INFO 2025-05-22 15:19:44,092 services Initializing ArXiv dataset...
+INFO 2025-05-22 15:19:49,351 services ArXiv dataset initialized successfully!
+INFO 2025-05-22 15:19:49,352 services Skipping Llama model initialization - using mock text analysis service instead.
+INFO 2025-05-22 15:19:49,352 services Services initialization completed!
+INFO 2025-05-22 15:19:51,778 services Initializing ArXiv dataset...
+INFO 2025-05-22 15:19:57,327 services ArXiv dataset initialized successfully!
+INFO 2025-05-22 15:19:57,328 services Skipping Llama model initialization - using mock text analysis service instead.
+INFO 2025-05-22 15:19:57,328 services Services initialization completed!
+INFO 2025-05-22 15:19:57,341 autoreload Watching for file changes with StatReloader
+WARNING 2025-05-22 15:20:10,436 log Not Found: /api
+WARNING 2025-05-22 15:20:10,441 basehttp "GET /api HTTP/1.1" 404 179
+WARNING 2025-05-22 15:20:23,134 log Not Found: /
+WARNING 2025-05-22 15:20:23,135 basehttp "GET / HTTP/1.1" 404 179
+WARNING 2025-05-22 15:20:54,524 log Not Found: /analyze
+WARNING 2025-05-22 15:20:54,525 basehttp "GET /analyze HTTP/1.1" 404 179
+WARNING 2025-05-22 15:21:02,210 log Not Found: /papers/search
+WARNING 2025-05-22 15:21:02,211 basehttp "GET /papers/search HTTP/1.1" 404 179
+INFO 2025-05-22 15:26:31,094 basehttp "OPTIONS /api/analyze/ HTTP/1.1" 200 0
+INFO 2025-05-22 15:30:27,055 autoreload /Users/rashmisuralkar/Documents/TBI-Test/arxiv-summarizer-app3/arxiv_summarizer/settings.py changed, reloading.
+INFO 2025-05-22 15:30:29,266 services Initializing ArXiv dataset...
+INFO 2025-05-22 15:30:34,531 services ArXiv dataset initialized successfully!
+INFO 2025-05-22 15:30:34,531 services Skipping Llama model initialization - using mock text analysis service instead.
+INFO 2025-05-22 15:30:34,531 services Services initialization completed!
+INFO 2025-05-22 15:30:34,543 autoreload Watching for file changes with StatReloader
+INFO 2025-05-22 15:31:40,538 autoreload /Users/rashmisuralkar/Documents/TBI-Test/arxiv-summarizer-app3/arxiv_summarizer/urls.py changed, reloading.
+INFO 2025-05-22 15:31:42,504 services Initializing ArXiv dataset...
+INFO 2025-05-22 15:31:47,633 services ArXiv dataset initialized successfully!
+INFO 2025-05-22 15:31:47,633 services Skipping Llama model initialization - using mock text analysis service instead.
+INFO 2025-05-22 15:31:47,634 services Services initialization completed!
+INFO 2025-05-22 15:31:47,649 autoreload Watching for file changes with StatReloader
+INFO 2025-05-22 15:32:26,308 services Initializing ArXiv dataset...
+INFO 2025-05-22 15:32:31,107 services ArXiv dataset initialized successfully!
+INFO 2025-05-22 15:32:31,108 services Skipping Llama model initialization - using mock text analysis service instead.
+INFO 2025-05-22 15:32:31,108 services Services initialization completed!
+INFO 2025-05-22 15:32:32,702 services Initializing ArXiv dataset...
+INFO 2025-05-22 15:32:37,984 services ArXiv dataset initialized successfully!
+INFO 2025-05-22 15:32:37,985 services Skipping Llama model initialization - using mock text analysis service instead.
+INFO 2025-05-22 15:32:37,985 services Services initialization completed!
+INFO 2025-05-22 15:32:37,999 autoreload Watching for file changes with StatReloader
+INFO 2025-05-22 15:33:57,981 basehttp "OPTIONS /api/analyze/ HTTP/1.1" 200 0
+INFO 2025-05-22 15:35:12,504 services Initializing ArXiv dataset...
+INFO 2025-05-22 15:35:21,166 services ArXiv dataset initialized successfully!
+INFO 2025-05-22 15:35:21,166 services Skipping Llama model initialization - using mock text analysis service instead.
+INFO 2025-05-22 15:35:21,166 services Services initialization completed!
+INFO 2025-05-22 15:35:22,525 services Initializing ArXiv dataset...
+INFO 2025-05-22 15:35:27,736 services ArXiv dataset initialized successfully!
+INFO 2025-05-22 15:35:27,736 services Skipping Llama model initialization - using mock text analysis service instead.
+INFO 2025-05-22 15:35:27,736 services Services initialization completed!
+INFO 2025-05-22 15:35:27,750 autoreload Watching for file changes with StatReloader
+INFO 2025-05-22 15:35:56,836 basehttp "OPTIONS /api/analyze/ HTTP/1.1" 200 0
+WARNING 2025-05-22 15:36:28,506 log Not Found: /analyse
+WARNING 2025-05-22 15:36:28,507 basehttp "GET /analyse HTTP/1.1" 404 179
+WARNING 2025-05-22 15:36:39,972 log Not Found: /analyze
+WARNING 2025-05-22 15:36:39,973 basehttp "GET /analyze HTTP/1.1" 404 179
+INFO 2025-05-22 15:47:56,146 services Initializing ArXiv dataset...
+INFO 2025-05-22 15:48:01,654 services ArXiv dataset initialized successfully!
+INFO 2025-05-22 15:48:01,655 services Skipping Llama model initialization - using mock text analysis service instead.
+INFO 2025-05-22 15:48:01,655 services Services initialization completed!
+INFO 2025-05-22 15:48:03,142 services Initializing ArXiv dataset...
+INFO 2025-05-22 15:48:08,037 services ArXiv dataset initialized successfully!
+INFO 2025-05-22 15:48:08,037 services Skipping Llama model initialization - using mock text analysis service instead.
+INFO 2025-05-22 15:48:08,037 services Services initialization completed!
+INFO 2025-05-22 15:48:08,048 autoreload Watching for file changes with StatReloader
+ERROR 2025-05-22 15:48:12,605 views Error in paper search: 'title'
+ERROR 2025-05-22 15:48:12,634 log Internal Server Error: /api/papers/search/
+ERROR 2025-05-22 15:48:12,635 basehttp "GET /api/papers/search/?query=tes HTTP/1.1" 500 5397
+WARNING 2025-05-22 15:48:12,696 log Not Found: /static/rest_framework/css/prettify.css
+WARNING 2025-05-22 15:48:12,697 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2025-05-22 15:48:12,702 log Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2025-05-22 15:48:12,705 log Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2025-05-22 15:48:12,708 log Not Found: /static/rest_framework/js/csrf.js
+WARNING 2025-05-22 15:48:12,715 log Not Found: /static/rest_framework/css/default.css
+WARNING 2025-05-22 15:48:12,717 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2025-05-22 15:48:12,717 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2025-05-22 15:48:12,719 log Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2025-05-22 15:48:12,721 log Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+WARNING 2025-05-22 15:48:12,721 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2025-05-22 15:48:12,722 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2025-05-22 15:48:12,724 log Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2025-05-22 15:48:12,726 log Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2025-05-22 15:48:12,731 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2025-05-22 15:48:12,733 basehttp "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+WARNING 2025-05-22 15:48:12,734 log Not Found: /static/rest_framework/js/default.js
+WARNING 2025-05-22 15:48:12,735 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2025-05-22 15:48:12,737 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2025-05-22 15:48:12,737 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+ERROR 2025-05-22 15:48:44,251 views Error in paper search: 'title'
+ERROR 2025-05-22 15:48:44,256 log Internal Server Error: /api/papers/search/
+ERROR 2025-05-22 15:48:44,260 basehttp "GET /api/papers/search/?query=%22Test%20text%20here%22 HTTP/1.1" 500 5494
+WARNING 2025-05-22 15:48:44,359 log Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2025-05-22 15:48:44,360 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2025-05-22 15:48:44,362 log Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2025-05-22 15:48:44,363 log Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+WARNING 2025-05-22 15:48:44,364 log Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2025-05-22 15:48:44,370 log Not Found: /static/rest_framework/js/csrf.js
+WARNING 2025-05-22 15:48:44,372 log Not Found: /static/rest_framework/css/default.css
+WARNING 2025-05-22 15:48:44,423 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2025-05-22 15:48:44,373 log Not Found: /static/rest_framework/css/prettify.css
+WARNING 2025-05-22 15:48:44,429 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2025-05-22 15:48:44,374 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2025-05-22 15:48:44,375 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2025-05-22 15:48:44,375 basehttp "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+WARNING 2025-05-22 15:48:44,376 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2025-05-22 15:48:44,443 log Not Found: /static/rest_framework/js/default.js
+WARNING 2025-05-22 15:48:44,445 log Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2025-05-22 15:48:44,437 log Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2025-05-22 15:48:44,447 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2025-05-22 15:48:44,449 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2025-05-22 15:48:44,450 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+INFO 2025-05-22 15:49:10,515 basehttp "GET /api/analyze HTTP/1.1" 301 0
+WARNING 2025-05-22 15:49:10,548 log Method Not Allowed: /api/analyze/
+WARNING 2025-05-22 15:49:10,548 basehttp "GET /api/analyze/ HTTP/1.1" 405 5680
+WARNING 2025-05-22 15:49:10,605 log Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2025-05-22 15:49:10,610 log Not Found: /static/rest_framework/css/prettify.css
+WARNING 2025-05-22 15:49:10,612 log Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2025-05-22 15:49:10,614 log Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2025-05-22 15:49:10,619 log Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+WARNING 2025-05-22 15:49:10,619 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2025-05-22 15:49:10,630 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2025-05-22 15:49:10,631 log Not Found: /static/rest_framework/css/default.css
+WARNING 2025-05-22 15:49:10,632 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2025-05-22 15:49:10,633 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2025-05-22 15:49:10,639 basehttp "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+WARNING 2025-05-22 15:49:10,681 log Not Found: /static/rest_framework/js/csrf.js
+WARNING 2025-05-22 15:49:10,694 log Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2025-05-22 15:49:10,720 log Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2025-05-22 15:49:10,722 log Not Found: /static/rest_framework/js/default.js
+WARNING 2025-05-22 15:49:10,722 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2025-05-22 15:49:10,724 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2025-05-22 15:49:10,725 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2025-05-22 15:49:10,725 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2025-05-22 15:49:10,726 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+ERROR 2025-05-22 15:49:35,942 views Error in paper search: 'title'
+ERROR 2025-05-22 15:49:35,947 log Internal Server Error: /api/papers/search/
+ERROR 2025-05-22 15:49:35,947 basehttp "GET /api/papers/search/?query=%22Test%20text%20here%22 HTTP/1.1" 500 5494
+WARNING 2025-05-22 15:49:35,996 log Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2025-05-22 15:49:35,997 log Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2025-05-22 15:49:36,008 log Not Found: /static/rest_framework/css/prettify.css
+WARNING 2025-05-22 15:49:36,010 log Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+WARNING 2025-05-22 15:49:36,014 log Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2025-05-22 15:49:36,023 log Not Found: /static/rest_framework/js/csrf.js
+WARNING 2025-05-22 15:49:36,024 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2025-05-22 15:49:36,024 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2025-05-22 15:49:36,028 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2025-05-22 15:49:36,030 basehttp "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+WARNING 2025-05-22 15:49:36,076 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2025-05-22 15:49:36,078 log Not Found: /static/rest_framework/css/default.css
+WARNING 2025-05-22 15:49:36,079 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2025-05-22 15:49:36,091 log Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2025-05-22 15:49:36,092 log Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2025-05-22 15:49:36,095 log Not Found: /static/rest_framework/js/default.js
+WARNING 2025-05-22 15:49:36,096 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2025-05-22 15:49:36,098 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2025-05-22 15:49:36,104 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2025-05-22 15:49:36,105 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179

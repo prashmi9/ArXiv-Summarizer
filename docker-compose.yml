@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  # Frontend service (React with Vite)
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"  # Map port 80 on host to port 80 in container
+    depends_on:
+      - backend
+    environment:
+      - VITE_API_URL=http://localhost:8000  # API URL for production
+    networks:
+      - app-network
+    restart: unless-stopped
+
+  # Backend service (Django REST Framework)
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"  # Map port 8000 on host to port 8000 in container
+    volumes:
+      - ./backend:/app  # Mount backend code for development
+      - static_volume:/app/staticfiles  # Volume for static files
+      - model_cache:/root/.cache/huggingface  # Cache Hugging Face models
+    environment:
+      - SECRET_KEY=${SECRET_KEY:-insecure_dev_key_change_in_production}
+      - DEBUG=${DEBUG:-False}
+      - ALLOWED_HOSTS=${ALLOWED_HOSTS:-localhost,127.0.0.1}
+      - CORS_ALLOWED_ORIGINS=${CORS_ALLOWED_ORIGINS:-http://localhost,http://frontend}
+      - HF_TOKEN=${HF_TOKEN}
+      - LLAMA_MODEL_ID=${LLAMA_MODEL_ID:-meta-llama/Llama-3.2-1B}
+      - DATASET_NAME=${DATASET_NAME:-ccdv/arxiv-summarization}
+    networks:
+      - app-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/health/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  static_volume:  # Volume for Django static files
+  model_cache:    # Volume for caching Hugging Face models
