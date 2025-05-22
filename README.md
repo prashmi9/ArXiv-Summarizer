@@ -73,11 +73,11 @@ cd arxiv-summarizer
    docker-compose up -d
    <br/>
 
-   # Run Database migartion:
+   #### Run Database migartion:
 
    python manage.py migrate
 
-   # Start Django server :
+   #### Start Django server :
 
    python manage.py runserver
 
