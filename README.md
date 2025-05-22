@@ -26,35 +26,37 @@ A full-stack web application for searching and analyzing ArXiv papers using NLP.
 
 ## Run Python virtual environment
 
-# Navigate to the backend directory
+### Navigate to the backend directory
 
 cd arxiv-summarizer-app
 
-# Create a virtual environment
+### Create a virtual environment
 
 python -m venv venv
 
-# Activate the virtual environment
+### Activate the virtual environment
 
-# On Windows:
+### On Windows:
 
 venv\Scripts\activate
 
-# On macOS/Linux:
+### On macOS/Linux:
 
 source venv/bin/activate
 
-# install Python dependencies
+### Install Python dependencies
 
 pip install -r requirements.txt
 
 ### Installation
 
 1. Clone the repository:
-   \`\`\`bash
-   git clone https://github.com/yourusername/arxiv-summarizer.git
-   cd arxiv-summarizer
-   \`\`\`
+   <br/>
+
+   - bash <br/>
+     git clone https://github.com/yourusername/arxiv-summarizer.git
+     cd arxiv-summarizer
+     <br/>
 
 2. Create a `.env` file in the project root with the following variables:
    \`\`\`
