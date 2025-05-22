@@ -53,13 +53,13 @@ pip install -r requirements.txt
 1. Clone the repository:
    <br/>
 
-   - bash <br/>
-     git clone https://github.com/yourusername/arxiv-summarizer.git
-     cd arxiv-summarizer
-     <br/>
+bash <br/>
+git clone https://github.com/prashmi9/ArXiv-Summarizer
+cd arxiv-summarizer
+<br/>
 
-2. Create a `.env` file in the project root with the following variables:
-   \`\`\`
+1. Create a `.env` file in the project root with the following variables:
+
    SECRET_KEY=your_django_secret_key
    DEBUG=true
    ALLOWED_HOSTS=localhost,127.0.0.1
@@ -67,19 +67,21 @@ pip install -r requirements.txt
    HF_TOKEN=your_huggingface_token
    LLAMA_MODEL_ID=meta-llama/Llama-3.2-1B
    DATASET_NAME=ccdv/arxiv-summarization
-   \`\`\`
 
-3. Build and start the containers:
-   \`\`\`bash
+2. Build and start the containers:
+   bash <br/>
    docker-compose up -d
-   \`\`\`
-   Run Database migartion:
+   <br/>
+
+   # Run Database migartion:
+
    python manage.py migrate
 
-   Start Django server :
+   # Start Django server :
+
    python manage.py runserver
 
-4. Access the application:
+3. Access the application:
    - Frontend: http://localhost:3000
    - Backend API: http://localhost:8000/api/analyze/
 
@@ -96,16 +98,15 @@ For development, you can run the frontend and backend separately:
 
 #### Frontend
 
-\`\`\`bash
-cd frontend
-npm install
+bash<br/>
+cd frontend<br/>
+npm install<br/>
 npm run dev
-\`\`\`
+<br/>
 
 #### Backend
 
-\`\`\`bash
-cd backend
-pip install -r requirements.txt
-python manage.py runserver
-\`\`\`
+bash<br/>
+cd backend<br/>
+pip install -r requirements.txt<br/>
+python manage.py runserver<br/>
